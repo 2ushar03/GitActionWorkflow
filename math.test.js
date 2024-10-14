@@ -2,7 +2,7 @@ const { add, subtract, divide, multiply, percentage } = require("./math");
 
 describe("Math.js tests", () => {
   it("should test  add  ", () => {
-    expect(add(4, 4)).toBe(9);
+    expect(add(4, 4)).toBe(8);
   });
   it("Should test subtract", () => {
     expect(subtract(4,2)).toBe(2);
